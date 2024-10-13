@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public interface Concationble {
+@FunctionalInterface
+public interface Concationble<T,V> {
+    String concat(T t,V v);
 }

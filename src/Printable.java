@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
+@FunctionalInterface
 public interface Printable {
+    void print();
 }
